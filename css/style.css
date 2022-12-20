@@ -1,0 +1,430 @@
+
+* {
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(180, 32, 32);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 247, 247);
+    margin-bottom: 5%;
+    position: relative;
+    margin-top: 5%;
+    font-size: 50px;
+    right: 130px;
+}
+
+.icones img {
+    position: relative;
+    align-items: center;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.icon-1 > img {
+    left: 370px;
+    bottom: 90px;
+}
+
+.icon-2 > img {
+    left: 405px;
+    bottom: 113px;
+}
+
+.icon-3 > img {
+    left: 438px;
+    bottom: 135px;
+}
+
+.icon-4 > img {
+    left: 470px;
+    bottom: 158px;
+}
+
+.menu  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.menu a {
+    color: rgb(235, 233, 233);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-bottom: 65px;
+    margin-left: 5px;
+}
+
+.menu .menu-1 > a { 
+    position: relative;
+    left: 380px;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo > img {
+  position: relative;
+    border-radius: 20px;
+    width: 90%;
+    height: 500px;
+}
+
+.center h2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 65px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.item > img {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    top: 55px;
+}
+
+.item > h4 {
+    position: relative;
+    margin-top: 5px;
+    color:  rgb(235, 224, 224);
+    top: 50px;
+}
+
+.itens-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    top: 20px;
+    padding: 50px 0 0 0px;
+}
+
+.item-1 > img {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    top: 40px;
+}
+
+.item-1 > h4 {
+    position: relative;
+    margin-top: 5px;
+    color:  rgb(235, 224, 224);
+    top: 35px;
+}
+
+footer {
+    padding: 150px 0 0 0;
+}
+
+.nav-content { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 140px 0 0 0;
+}
+
+.nav-content .left-box h2{
+    position: relative;
+    font-size: 15px;
+    color:  rgb(235, 224, 224);
+    bottom: 10px;
+    right: 50px;
+}
+
+.left-box .content p{
+    position: relative;
+   font-size: 12px;
+    color:  rgb(235, 224, 224);
+    right: 50px;
+}
+
+.socias {
+    display: flex;
+}
+
+.sociais .social-1 > a img {
+    position: relative;
+    padding: 5px;
+    height: 33px;
+    right: 55px;
+    top: 28px;
+    border-radius: 16px;
+}
+
+.sociais .social-2 > a img {
+    position: relative;
+    border-radius: 16px;
+    padding: 5px;
+    height: 31px;
+    bottom: 8px;
+    right: 16px;
+}
+
+.sociais .social-3 > a img {
+    position: relative;
+    padding: 4px;
+    height: 32px;
+    left: 20px;
+    bottom: 42px;
+}
+
+.sociais .social-4 > a img {
+    position: relative;
+    padding: 4px;
+    height: 28px;
+    left: 54px;
+    bottom: 76px;
+}
+
+.center-box h2 {
+    position: relative;
+    font-size: 15px;
+    color: rgb(235, 224, 224);
+    bottom: 10px;
+    left: 25px;
+}
+
+.center-box .content {
+    position: relative;
+    font-size: 12px;
+    color: rgb(235, 224, 224);
+    right: 15px; 
+}
+
+.rigth-box h2 {
+    position: relative;
+    font-size: 14px;
+    color: rgb(235, 224, 224);;
+    left: 120px;
+    bottom: 10px;
+}
+
+.rigth-box .content-1 {
+    position: relative;
+    font-size: 13px;
+    color: rgb(212, 207, 207);
+    left: 55px;
+}
+
+.localizar > a img {
+    position: relative;
+    border-radius: 1200px;
+    height: 18px;
+    width: 19px;
+    right: 236px;
+    top: 4px;
+}
+
+.fone > img {
+    position: relative;
+    border-radius: 500px;
+    height: 16px;
+    width: 19px;
+    right: 152px;
+    top: 10px;
+}
+
+.fone span {
+    position: relative;
+    top: 8px;
+}
+
+.gmail > img {
+    position: relative;
+    border-radius: 1200px;
+    height: 15px;
+    width: 20px;
+    right: 217px;
+    top: 17px;
+}
+
+.gmail span {
+    position: relative;
+    top: 12px;
+}
+
+.msg .btn button {
+    color:  rgb(141, 137, 137);
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+.content-1 .gmail input {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.content-1 .msg input {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.content-1 .msg .text {
+    position: relative;
+    top: 3px;
+}
+
+.content-1 .msg .text input {
+    bottom: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 600px;
+    }
+
+    .icones .icon-1 > img {
+        position: relative;
+        left: 155px;
+       margin-top: 75px;
+        width: 17px;
+        height: 17px;
+        margin-bottom: 5px;
+    }
+
+    .icones .icon-2 > img {
+        left: 180px;
+        width: 17x;
+        height: 17px;
+        margin-bottom: 2px;
+    }
+
+    .icones .icon-3 > img {
+        left: 205px;
+        width: 16px;
+        height: 16px;
+        margin-bottom: 3px;
+    }
+
+    .icones .icon-4 > img {
+        left: 230px;
+        width: 16px;
+        height: 16px;
+        margin-bottom: 2px;
+    }
+
+    h1 {
+        right: 70px;
+        font-size: 25px;
+        top: 30px;
+    }
+
+   .menu > a {
+    position: relative;
+    font-size: 12px;
+    bottom: 12px;
+    
+   }
+
+   .menu .menu-1  a {
+    position: relative;
+    left: 37px;
+    font-size: 13px;
+    bottom: 15px;
+   }
+   
+   .center h2 {
+    font-size: 20px;
+   }
+
+   .itens, .itens-1 {
+    width: 100%;
+   }
+
+   .nav-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 60px;
+   }
+
+   .left-box .sociais {
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+   }
+
+   .center-box h2 {
+    position: relative;
+    margin-right: 140px;
+    bottom: 70px;
+    margin-bottom: 10px;
+   }
+
+   .localizar {
+    position: relative;
+    bottom: 75px;
+   }
+
+   .fone {
+    position: relative;
+    bottom: 70px;
+    right: 40px;
+   }
+
+   .content .gmail {
+    position: relative;
+    bottom: 65px;
+    right: 8px;
+   }
+
+   .rigth-box h2 {
+    position: relative;
+    margin-right: 340px;
+   }
+   
+   .content-1 .gmail .text-1 {
+    position: relative;
+    right: 170px;
+    margin-top: 8px;
+    bottom: 2px;
+   }
+
+   .content-1 .msg .text  {
+    position: relative;
+    right:156px;
+    bottom: 2px;
+   }
+
+   .content-1  input {
+    position: relative;
+    right: 110px;
+   }
+
+   .content-1 .btn {
+    position: relative;
+    right: 172px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+   }
+
+} 
+
+
+
+
+
